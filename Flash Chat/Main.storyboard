@@ -338,7 +338,7 @@
         <!--Overview-->
         <scene sceneID="lgt-9c-rrE">
             <objects>
-                <viewController title="Overview" id="v0r-4Y-nRM" sceneMemberID="viewController">
+                <viewController title="Overview" id="v0r-4Y-nRM" customClass="StudifyViewController" customModule="Flash_Chat" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="GYp-xI-3CM"/>
                         <viewControllerLayoutGuide type="bottom" id="E9q-Wt-kQc"/>
@@ -397,6 +397,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Studify" id="1yx-bE-Wof"/>
+                    <connections>
+                        <outlet property="yourClassesTableView" destination="a95-qz-paE" id="5Fo-5m-WY6"/>
+                        <outlet property="yourHomeworkTableView" destination="dBD-6i-L3Q" id="S7o-1Z-5cx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PvB-WX-uBJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

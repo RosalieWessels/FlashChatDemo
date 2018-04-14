@@ -21,8 +21,6 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
     @IBOutlet var messageTextfield: UITextField!
     @IBOutlet var messageTableView: UITableView!
     
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
